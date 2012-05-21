@@ -3,6 +3,9 @@ filetype plugin indent on
 
 " Settings
 syntax on
+" set background=dark
+" colorscheme solarized
+
 set number
 set hlsearch
 set wildmode=longest:full

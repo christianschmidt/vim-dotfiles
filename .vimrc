@@ -20,3 +20,5 @@ set expandtab
 " Keys
 let mapleader = ","
 
+" Complete open HTML tags
+imap ,, </<C-X><C-O>

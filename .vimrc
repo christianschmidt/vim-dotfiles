@@ -22,3 +22,12 @@ let mapleader = ","
 
 " Complete open HTML tags
 imap ,, </<C-X><C-O>
+
+" NerdTree
+map <Leader>n :NERDTreeToggle<CR>
+map <F12> :NERDTreeToggle<CR>
+
+" majutsushi/tagbar
+" on osx: brew install ctags
+map <F11> :TagbarToggle<Cr>
+imap <F11> <Esc><F11>i

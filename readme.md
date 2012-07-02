@@ -8,6 +8,12 @@ Nothing fancy, i'm just trying to get my way into vim. :)
 * tagbar (https://github.com/vim-scripts/Tagbar)
 * vim-coffee-script (https://github.com/kchmck/vim-coffee-script)
 * vim-fugitive (https://github.com/tpope/vim-fugitive)
+* vim-powerline (https://github.com/Lokaltog/vim-powerline/)
+* Command-T (https://github.com/wincent/Command-T)
+* NERDTree (https://github.com/scrooloose/nerdtree/)
+* auto-pairs.vim (https://github.com/jiangmiao/auto-pairs)
+* comments.vim (https://github.com/vim-scripts/comments.vim)
+* surround.vim (https://github.com/tpope/vim-surround/)
 
 
 # Usage

@@ -42,6 +42,11 @@ let mapleader = ","
 " Complete open HTML tags
 imap ,, </<C-X><C-O>
 
+" Powerline
+set guifont=Mensch\ for\ Powerline:h15
+set laststatus=2
+let g:Powerline_symbols = 'fancy'
+
 " NERDTree
 map <Leader>n :NERDTreeToggle<CR>
 map <F12> :NERDTreeToggle<CR>

@@ -31,3 +31,7 @@ Nothing fancy, i'm just trying to get my way into vim. :)
 
     cd ~/vim-dotfiles
     git pull
+
+
+# Patched Fonts for vim-powerline
+* https://gist.github.com/1595572

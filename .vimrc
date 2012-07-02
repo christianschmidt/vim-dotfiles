@@ -17,6 +17,9 @@ set shiftwidth=2
 set autoindent
 set expandtab
 
+" Command-T
+map <Leader>t :CommandT
+
 " Create window splits easier. The default
 " way is Ctrl-w,v and Ctrl-w,s. I remap
 " this to vv and ss

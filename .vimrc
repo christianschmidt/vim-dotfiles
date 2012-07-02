@@ -24,10 +24,10 @@ nnoremap <silent> vv <C-w>v
 nnoremap <silent> ss <C-w>s
 
 " Resize splits
-nnoremap <C-Up> <C-w>+
-nnoremap <C-Down> <C-w>-
-nnoremap <C-Left> <C-w><
-nnoremap <C-Right>  <C-w>>
+nnoremap <C-k> <C-w>+
+nnoremap <C-j> <C-w>-
+nnoremap <C-l> <C-w><
+nnoremap <C-h>  <C-w>>
 
 "Clear current search highlight by double tapping //
 nmap <silent> // :nohlsearch<CR>

@@ -1,10 +1,7 @@
 call pathogen#infect()
 filetype plugin indent on
 
-" Settings
 syntax on
-" set background=dark
-" colorscheme solarized
 
 set number
 set hlsearch
@@ -38,7 +35,6 @@ nmap <silent> // :nohlsearch<CR>
 " Keys
 let mapleader = ","
 
-
 " Complete open HTML tags
 imap ,, </<C-X><C-O>
 
@@ -48,9 +44,9 @@ set laststatus=2
 let g:Powerline_symbols = 'fancy'
 
 " NERDTree
+let g:NERDTreeWinSize = 40
 map <Leader>n :NERDTreeToggle<CR>
 map <F12> :NERDTreeToggle<CR>
-
 
 " majutsushi/tagbar
 " on osx: brew install ctags

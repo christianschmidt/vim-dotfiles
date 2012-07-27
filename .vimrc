@@ -14,11 +14,6 @@ set shiftwidth=2
 set autoindent
 set expandtab
 
-" Keys
-let mapleader = ","
-
-
-
 " Command-T
 map <Leader>t :CommandT
 
@@ -36,6 +31,9 @@ nnoremap <C-h>  <C-w>>
 
 "Clear current search highlight by double tapping //
 nmap <silent> // :nohlsearch<CR>
+
+" Keys
+let mapleader = ","
 
 " Complete open HTML tags
 imap ,, </<C-X><C-O>

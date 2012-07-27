@@ -14,6 +14,11 @@ set shiftwidth=2
 set autoindent
 set expandtab
 
+" Keys
+let mapleader = ","
+
+
+
 " Command-T
 map <Leader>t :CommandT
 
@@ -32,9 +37,6 @@ nnoremap <C-h>  <C-w>>
 "Clear current search highlight by double tapping //
 nmap <silent> // :nohlsearch<CR>
 
-" Keys
-let mapleader = ","
-
 " Complete open HTML tags
 imap ,, </<C-X><C-O>
 
@@ -45,7 +47,6 @@ let g:Powerline_symbols = 'fancy'
 
 " NERDTree
 let g:NERDTreeWinSize = 40
-map <Leader>n :NERDTreeToggle<CR>
 map <F12> :NERDTreeToggle<CR>
 
 " majutsushi/tagbar
@@ -53,12 +54,14 @@ map <F12> :NERDTreeToggle<CR>
 map <F11> :TagbarToggle<Cr>
 imap <F11> <Esc><F11>i
 
+" Toggle Number/NoNumber
+nnoremap <F10> :set nonumber!<CR>
 
 " Rails (vim-rails.vim)
 " Open Views, Controller or Models in a new tab
-nnoremap ,vv :RTview<cr>
-nnoremap ,cc :RTcontroller<cr>
-nnoremap ,mm :RTmodel<cr>
+nnoremap <Leader>vv :RTview<cr>
+nnoremap <Leader>cc :RTcontroller<cr>
+nnoremap <Leader>mm :RTmodel<cr>
 " create <%= foo %> erb tags using Ctrl-k in edit mode
 imap <silent> <C-K> <%=   %><Esc>3hi
 " create <%= foo %> erb tags using Ctrl-j in edit mode

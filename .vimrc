@@ -14,8 +14,8 @@ set shiftwidth=2
 set autoindent
 set expandtab
 
-" Command-T
-map <Leader>t :CommandT
+" Keys
+let mapleader = ","
 
 " Create window splits easier. The default
 " way is Ctrl-w,v and Ctrl-w,s. I remap
@@ -31,9 +31,6 @@ nnoremap <C-h>  <C-w>>
 
 "Clear current search highlight by double tapping //
 nmap <silent> // :nohlsearch<CR>
-
-" Keys
-let mapleader = ","
 
 " Complete open HTML tags
 imap ,, </<C-X><C-O>
@@ -64,3 +61,12 @@ nnoremap <Leader>mm :RTmodel<cr>
 imap <silent> <C-K> <%=   %><Esc>3hi
 " create <%= foo %> erb tags using Ctrl-j in edit mode
 imap <silent> <C-J> <%  %><Esc>2hi
+
+" Sane Ignore For ctrlp
+let g:ctrlp_map = ',t'
+nnoremap ,b :CtrlPBuffer<cr>
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.yardoc\|public\/images\|public\/system\|data\|log\|tmp$',
+  \ 'file': '\.exe$\|\.so$\|\.dat$'
+  \ }

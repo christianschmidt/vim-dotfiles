@@ -64,6 +64,7 @@ imap <silent> <C-J> <%  %><Esc>2hi
 
 " Sane Ignore For ctrlp
 let g:ctrlp_map = ',t'
+let g:ctrlp_working_path_mode = 'rc'
 nnoremap ,b :CtrlPBuffer<cr>
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 let g:ctrlp_custom_ignore = {

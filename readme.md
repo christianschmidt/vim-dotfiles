@@ -14,6 +14,7 @@ Nothing fancy, i'm just trying to get my way into vim. :)
 * auto-pairs.vim (https://github.com/jiangmiao/auto-pairs)
 * comments.vim (https://github.com/vim-scripts/comments.vim)
 * surround.vim (https://github.com/tpope/vim-surround/)
+* snipMate.vim (https://github.com/msanders/snipmate.vim/)
 
 
 # Usage

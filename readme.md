@@ -20,7 +20,7 @@ Nothing fancy, i'm just trying to get my way into vim. :)
 # Usage
     
     # Clone repository and submodules
-    git clone --recursive https://github.com/aleks/vim-dotfiles.git
+    git clone --recursive https://github.com/xmorpheus/vim-dotfiles.git
 
     # Symlink .vimrc and .vim
     cd ~/

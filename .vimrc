@@ -8,7 +8,7 @@ set hlsearch
 set wildmode=longest:full
 set wildmenu
 
-set tabstop=2
+set tabstop=5
 set smarttab
 set shiftwidth=2
 set autoindent

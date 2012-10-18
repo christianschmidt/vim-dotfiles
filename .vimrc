@@ -10,7 +10,7 @@ set wildmenu
 
 set tabstop=5
 set smarttab
-set shiftwidth=2
+set shiftwidth=5
 set autoindent
 set expandtab
 

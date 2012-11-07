@@ -12,7 +12,6 @@ set tabstop=5
 set smarttab
 set shiftwidth=5
 set autoindent
-set expandtab
 
 " Keys
 let mapleader = ","
